@@ -1,0 +1,15 @@
+name: diet-planner-env
+description: Basic diet planning environment for OpenEnv
+
+actions:
+  type: dict
+
+observations:
+  type: dict
+
+reward_range: [0, 1]
+
+tasks:
+  - easy
+  - medium
+  - hard
