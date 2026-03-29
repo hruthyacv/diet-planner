@@ -1,30 +1,77 @@
-# Diet Planner OpenEnv
+# 🍽️ AI Diet + Fitness Planner
 
-## Description
-This project simulates a real-world diet planning environment where an AI agent generates meal plans.
+A smart and interactive web app that generates personalized diet and fitness plans based on user preferences, goals, and lifestyle.
 
-## State
-- goal
-- calories_target
-- diet_type
-- budget
+---
 
-## Action
-- breakfast
-- lunch
-- dinner
-- calories
+## 🚀 Live Demo
+👉 https://diet-planner-hruthyacv.streamlit.app/
 
-## Reward
-- Calorie match: 0.4
-- Diet type match: 0.3
-- Meal diversity: 0.3
+---
 
-## Tasks
-- Easy: calorie match
-- Medium: calorie + diet
-- Hard: calorie + diet + diversity
+## ✨ Features
 
-## Run
-```bash
-python main.py
+- 🥗 Personalized diet plans (Vegetarian & Non-Vegetarian)
+- 📅 Weekly meal planner (7-day structured plan)
+- 📊 Macro breakdown (Protein, Carbs, Fats)
+- 🔄 Dynamic meal swapping
+- 🛒 Smart grocery list (auto-generated)
+- 🏋️ Fitness recommendations based on goals
+- 🎯 Goal-based planning (Weight Loss / Gain / Maintenance)
+- 🌍 Cuisine-based customization (Indian-focused)
+
+---
+
+## 🧠 How It Works
+
+1. User selects:
+   - Goal (Weight Loss / Gain / Maintain)
+   - Diet type (Veg / Non-Veg)
+   - Activity level
+   - Age, weight, height
+
+2. The app:
+   - Calculates calorie needs
+   - Generates a daily meal plan
+   - Creates a weekly plan
+   - Provides macro distribution
+   - Suggests workouts
+   - Builds a grocery list
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- Streamlit
+- Git & GitHub
+
+---
+
+## 💻 Run Locally
+
+```
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## 📌 Project Status
+
+🚧 Actively improving:
+- Better UI/UX
+- More meal diversity
+- Smarter recommendations
+
+---
+
+## 👩‍💻 Author
+
+Hruthya C V
+
+---
+
+## ⭐ If you like this project
+
+Give it a star on GitHub ⭐
